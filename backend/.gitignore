@@ -1,0 +1,36 @@
+# Dependencies (ignored – do not track)
+node_modules/
+
+# Environment variables – never commit secrets (ignored)
+.env
+.env.local
+.env.*.local
+src/.env
+**/.env
+**/.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+.DS_Store
+
+# Build / output
+dist/
+build/
+out/
+
+# Coverage
+coverage/
+.nyc_output/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Optional
+*.tgz
